@@ -1,16 +1,22 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import GetData from "./components/GetData";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+import Home from "./components/Home";
 import Weather from "./components/Weather";
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <Router>
+      <nav>
+        <Link to="/">Home</Link> 
+      </nav>
       <Routes>
-        <Route path="/" element={<Weather />} />
-        <Route path="/getdata" element={<GetData />} />
-
-        <Route path="*" element={<h1>Not found</h1>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/weather" element={<Weather />} />
+        <Route path="*" element={<h2>not found</h2>}/>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
+
+export default App;
