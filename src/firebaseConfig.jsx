@@ -8,13 +8,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD4TMPpWEYzIJqe7WIunhVLHSR-KGTf3Uk",
-  authDomain: "ecommerce-auth-a5402.firebaseapp.com",
-  projectId: "ecommerce-auth-a5402",
-  storageBucket: "ecommerce-auth-a5402.firebasestorage.app",
-  messagingSenderId: "497384046051",
-  appId: "1:497384046051:web:6e54bb84eac954965ef4d6",
-  measurementId: "G-XR0L94FV80",
+  apiKey: "AIzaSyDPfMxQsLSDlgW5UuEekEMh7wEhdLR7axs",
+  authDomain: "weather-83940.firebaseapp.com",
+  projectId: "weather-83940",
+  storageBucket: "weather-83940.firebasestorage.app",
+  messagingSenderId: "991676279661",
+  appId: "1:991676279661:web:57976aa9665055d3790864",
+  measurementId: "G-7J02Z9WG3X"
 };
 
 // Initialize Firebase
